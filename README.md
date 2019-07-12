@@ -28,7 +28,7 @@ The goals / steps of this project are the following:
 [image6]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic3.png "Keep Right"
 [image7]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic4.png "Road Work"
 [image8]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic5.png "60 km/h"
-[image9]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/softmax_probability.png "Softmax Probability"
+[image9]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/softmax_probability.PNG "Softmax Probability"
 [image10]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/training_dist.PNG "Training Distribution"
 [image11]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/validation_dist.PNG "Validation Distribution"
 
