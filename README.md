@@ -50,7 +50,7 @@ I decided to slice a validation set from the training set as opposed to using th
 
 #### 1. Dataset Summary
 
-I loaded both the training set and the validation set from the workspace's [data](https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/data) folder. By doing an initial run through with the LeNet architecture, I achieved a little over 80% Validation Accuracy (initially, I had used the validation set from the data folder).
+I loaded both the training set and the validation set from the workspace's data folder. By doing an initial run through with the LeNet architecture, I achieved a little over 80% Validation Accuracy (initially, I had used the validation set from the data folder).
 
 #### 2. Exploratory Visualization
 
@@ -74,7 +74,7 @@ After doing some research on sign sample quantity, I decided to add more images 
 
 I performed this randomization in the sixth code cell by chaining modifications like translating (image shift using 'translate()', scaling (just like image modification on roads using 'scale()' warping (twisting or rotating using 'warp()'), and randomizing brightness (using 'brighten()').
 
-This data was saved in the fourteenth code cell so that I could reload the augmented data. The augmented data was stored in the [augmented_data](https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/augmented_data) folder location. When it gets loaded, it gets renamed into pipeline-friendly names.
+This data was saved in the fourteenth code cell so that I could reload the augmented data. The augmented data was stored in an augmented data folder location. When it gets loaded, it gets renamed into pipeline-friendly names.
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
