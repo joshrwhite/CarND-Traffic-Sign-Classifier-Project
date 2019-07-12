@@ -23,11 +23,11 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image2]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/mean_variance.png "Well-Conditioned"
-[image4]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic1.png "Traffic Sign 1"
-[image5]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic2.png "Traffic Sign 2"
-[image6]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic3.png "Traffic Sign 3"
-[image7]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic4.png "Traffic Sign 4"
-[image8]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic5.png "Traffic Sign 5"
+[image4]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic1.png "30 km/h"
+[image5]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic2.png "Left Turn"
+[image6]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic3.png "Keep Right"
+[image7]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic4.png "Road Work"
+[image8]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic5.png "60 km/h"
 [image9]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/softmax_probability.png "Softmax Probability"
 [image10]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/training_dist.PNG "Training Distribution"
 [image11]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/validation_dist.PNG "Validation Distribution"
@@ -158,14 +158,14 @@ My final model results were:
 
 Here are five German traffic signs that I found on the web:
 
-![Keep Right][image4] ![60 km/h][image5] ![Left Turn][image6] 
-![30 km/h][image7] ![Road Work][image8]
+![30 km/h][image4] ![Left Turn][image5] ![Keep Right][image6] 
+![Road Work][image7] ![60 km/h][image8]
 
-The first and third image might be difficult to classify because arrows are common for German road signs. Lucking the arrowheads themselves are quite different so "Keep" and "Turn" can be distinguished from eachother.
+The second and third image might be difficult to classify because arrows are common for German road signs. Lucking the arrowheads themselves are quite different so "Keep" and "Turn" can be distinguished from eachother.
 
-The second and fourth sign both have numbers and, as can be seen when looking at softmax probabilities, similar images involve numbers.
+The first and fifth sign both have numbers and, as can be seen when looking at softmax probabilities, similar images involve numbers.
 
-The fifth image has low resolution and German road signs often use the red border triangle to communicate information. This could be confused with another informational road sign.
+The fourth image has low resolution and German road signs often use the red border triangle to communicate information. This could be confused with another informational road sign.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -173,11 +173,11 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        			| 
 |:---------------------:|:-------------------------------------:| 
-| Keep Right      		| Keep Right   							| 
-| 60 km/h     			| 60 km/h 								|
-| Left Turn				| Left Turn								|
-| 30 km/h	      		| 30 km/h   					 		|
-| Road Work 			| Road Work         					|
+| 30km/h      		| 30km/h   							| 
+| Left Turn     			| Left Turn 								|
+| Keep Right				| Keep Right								|
+| Road Work	      		| Road Work   					 		|
+| 60 km/h 			| 60 km/h         					|
 
 
 The model was able to correctly guess all 5 of the traffic signs correctly, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 93.8%.
