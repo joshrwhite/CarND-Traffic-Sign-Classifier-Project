@@ -188,6 +188,7 @@ The code for making predictions on my final model is located in the 23rd cell of
 
 Seemingly, there is a high confidence that the signs are labeled correctly as all best guesses are 100% correct (see below):
 
+![Softmax Probabilities][image9]
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
