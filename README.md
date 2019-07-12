@@ -50,7 +50,7 @@ I decided to slice a validation set from the training set as opposed to using th
 
 #### 1. Dataset Summary
 
-I loaded both the training set and the validation set from the workspace's [data](https://github.com/white315/CarND-Traffic-Sign Classifier-Project/blob/master/data) folder. By doing an initial run through with the LeNet architecture, I achieved a little over 80% Validation Accuracy (initially, I had used the validation set from the data folder).
+I loaded both the training set and the validation set from the workspace's [data](https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/data) folder. By doing an initial run through with the LeNet architecture, I achieved a little over 80% Validation Accuracy (initially, I had used the validation set from the data folder).
 
 #### 2. Exploratory Visualization
 
