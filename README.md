@@ -29,8 +29,8 @@ The goals / steps of this project are the following:
 [image7]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic4.png "Traffic Sign 4"
 [image8]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic5.png "Traffic Sign 5"
 [image9]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/softmax_probability.png "Softmax Probability"
-[image10]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/training_dist.png "Training Distribution"
-[image11]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/validation_dist.png "Validation Distribution"
+[image10]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/training_dist.PNG "Training Distribution"
+[image11]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/validation_dist.PNG "Validation Distribution"
 
 ### Notes Concerning the Dataset
 
