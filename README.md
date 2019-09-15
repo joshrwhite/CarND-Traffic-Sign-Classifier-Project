@@ -22,15 +22,15 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image2]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/mean_variance.png "Well-Conditioned"
-[image4]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic1.png "30 km/h"
-[image5]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic2.png "Left Turn"
-[image6]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic3.png "Keep Right"
-[image7]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic4.png "Road Work"
-[image8]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic5.png "60 km/h"
-[image9]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/softmax_probability.PNG "Softmax Probability"
-[image10]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/training_dist.PNG "Training Distribution"
-[image11]: https://github.com/white315/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/validation_dist.PNG "Validation Distribution"
+[image2]: https://github.com/joshrwhite/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/mean_variance.png "Well-Conditioned"
+[image4]: https://github.com/joshrwhite/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic1.png "30 km/h"
+[image5]: https://github.com/joshrwhite/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic2.png "Left Turn"
+[image6]: https://github.com/joshrwhite/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic3.png "Keep Right"
+[image7]: https://github.com/joshrwhite/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic4.png "Road Work"
+[image8]: https://github.com/joshrwhite/CarND-Traffic-Sign-Classifier-Project/blob/master/german_signs/pic5.png "60 km/h"
+[image9]: https://github.com/joshrwhite/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/softmax_probability.PNG "Softmax Probability"
+[image10]: https://github.com/joshrwhite/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/training_dist.PNG "Training Distribution"
+[image11]: https://github.com/joshrwhite/CarND-Traffic-Sign-Classifier-Project/blob/master/README_images/validation_dist.PNG "Validation Distribution"
 
 ### Notes Concerning the Dataset
 
